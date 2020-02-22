@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.infinite {
+    width: 100%;
+    height: 770px;
+    background: rgba(240,50,255,0.6);
+}
+.infinite div {
+    background: rgba(200,200,0);
+    width: 100%;
+    height: 100%;
+}
+
+.infinite div:nth-child(7n + 1) {
+    background:  rgba(255,10,25);
+}
+.infinite div:nth-child(7n + 2) {
+    background:  rgba(200,200,0);
+}
+.infinite div:nth-child(7n + 3) {
+    background:  rgba(240,50,255,0.6);
+}
+.infinite div:nth-child(7n + 4) {
+    background:  rgba(255,10,25);
+}
+.infinite div:nth-child(7n + 5) {
+    background:  rgba(200,200,0);
+}
+.infinite div:nth-child(7n + 6) {
+    background:  rgba(240,50,255,0.6);
+}
